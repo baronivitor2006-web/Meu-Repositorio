@@ -1,14 +1,144 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Primeiro site em repositório</title>
+    <title>Meus gostos - Sobre Mim</title>
 </head>
 <body>
-    <h1>Olá, Mundo<h1>
+    <header>
+        <h1>Meu Gênero de Filme favoritos: Terror</h1>
+        <p>Gosto desse gênero, pois gosto da adrenalina de sentir 
+            o coraçaõ batendo mais rápido e a ansiedade de decobrir o enredo da trama.
+        </p>
+    </header>
     <hr>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, quos labore excepturi libero placeat voluptate tenetur rerum id quibusdam iusto dicta repellendus mollitia saepe quidem similique voluptatem qui illum fugit!</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa temporibus aperiam cumque quisquam quaerat repellendus tenetur saepe illo reprehenderit consectetur, quam dignissimos, animi officiis quis repellat nesciunt illum aliquid nemo!</p>
+    <main>
+
+        <section>
+            <h2>Sobre o gênero terror:</h2>
+
+            <p>O filem de terror é um gênero cinematográfico com o intuito
+                deliberado de provocar medo, suspense, ansiedade e até repulsa.
+                Ele explora os medos primários da audiência através (ou não) do sobrenatural.
+            </p>
+
+            <p>O cinema de terror utiliza o desconhecido e o perigo iminente para manter
+                o espectador em estado de alerta. Muitas produções modernas também usam o terror
+                como uma alegoria para discutir problemas sociais, traumas e ansiedades da vida real.
+            </p>
+        </section>
+
+        <section>
+            <h2>Quais Sãos os Subgêneros?</h2>
+
+            <ul>
+                <li>Sobrenatural - Focado em Fantasmas e mmaldições.</li>
+                <li>Psicológico - Explora a paranóia e a mente dos personagens.</li>
+                <li>Slasher - Destaca um assasino mascarado persiguindo as vítmas.</li>
+                <li>Gore - Focado em mostrar violência explícita.</li>
+                <li>Terrir - Mistura o medo com a comédia para aliviar a tensão.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Alguns filmes mais famosos:</h2>
+
+            <ol>
+                <li>Sobrenatural - Invocação do Mal</li>
+                <li>Psicológico - O Iluminado</li>
+                <li>Slasher - Halloween</li>
+                <li>Gore - A substância</li>
+                <li>Terrir - Zumbilândia</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Meu filme "escolhido"</h2>
+
+            <table> border="1">
+                <thead>
+                    <tr>
+                        <th>Informações</th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Nome</td>
+                        <td>"O Exorcista do Papa</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Gênero</td>
+                        <td>Terror - Sobrenatural</td>
+                    </tr>
+
+                    <tr>
+                        <td>personagens Principais</td>
+                        <td>Padre Gabriele, Padre Esquibel, Henry e Júlia</td>
+                    </tr>
+
+                    <tr>
+                        <td>Minha nota</td>
+                        <td>8.5/10</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Formulário de Contato</h2>
+
+            <p>
+                Preencha o formulário abaixo para enviar sua opinião sobre o filme.
+            </p>
+
+            <form>
+                <label for="nome">Nome Completo:</label><br>
+                <imput
+                type="text"
+                id="nome"
+                name="nome"
+                placeholder="Digite seu nome completo"
+                >
+                <br><br>
+                
+                <label for="nota">Qual nota você daria para esse filme?</label><br>
+                <select id="nota" name="nota">
+                    <option value="">Selecione uma opção</option>
+                     <option value="10">10 - Excelente</option>
+                    <option value="8">8 - Muito bom</option>
+                    <option value="6">6 - Bom</option>
+                    <option value="4">4 - Regular</option>
+                    <option value="2">2 - Ruim</option>
+                </select>
+                <br><br>
+
+                <label for="mensagem">Sua Opinião:</label><br>
+                <textarea
+                id="mensagem"
+                name="mensagem"
+                rows="5"
+                cols="40"
+                placeholder="Digite aqui sua Opinião"
+                ></textarea>
+                <br><br>
+
+                <button type="submit">Enviar opinião</button>
+                <button type="reset">Limpar Formulário</button>
+            </form>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>Página criada para treinar HTML</p>
+        <P>Criado por: Vitor Baroni. 16/06/2026.</P>
+    </footer>
+    
 </body>
 </html>
